@@ -24,7 +24,7 @@
             <?php
                 session_start();
                 if (isset($_SESSION['username'])) {
-                    echo '<li><a href="unos.html">Create Page</a></li>';}
+                    echo '<li><a href="unos.php">Create Page</a></li>';}
             ?>
         </ul>
     </nav>
