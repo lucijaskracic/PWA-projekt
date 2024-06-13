@@ -1,0 +1,205 @@
+body {
+    background-image: url('pictures/pattern.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(48, 48, 48);
+    color: limegreen;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.login-link {
+    font-size: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: limegreen;
+    text-transform: uppercase;
+    transition: color 0.3s ease; 
+}
+
+.login-link:hover {
+    color: lime;
+    text-shadow: 2px 2px 2px gray; 
+}
+
+.hrheader {
+    border: 2px solid limegreen;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(48, 48, 48);
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 10px; 
+}
+
+nav a {
+    font-size: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: limegreen;
+    text-transform: uppercase;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: lime;
+    text-shadow: 2px 2px 2px gray; 
+}
+
+main {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    margin-bottom: 150px; 
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px; 
+    padding: 20px;
+}
+
+.news-section article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.news-section article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.news-section article h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+
+.clanak{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; 
+}
+.clanak:hover{
+    color: limegreen;
+    text-shadow: 2px 2px 2px gray; 
+}
+.clanak::after{
+    color: white;
+}
+
+.titlebox, input[type="file"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.titlebox {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+textarea {
+    resize: vertical;
+}
+
+button, .delete-button {
+    background-color: limegreen;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover, .delete-button:hover {
+    background-color: lime;
+    text-shadow: 2px 2px 2px gray; 
+    box-shadow: 3px 3px 3px grey;
+}
+
+.sub{
+    display: block;
+    margin:auto;
+}
+
+.headline{
+    text-transform: uppercase;
+}
+.articleImage{
+    width:100%;
+}
+.short{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+}
+.long{
+    text-align: justify;
+    font-size: 14px;
+}
+.categ{
+    text-align: left;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.error{
+    border: 2px dotted red;
+}
+.login-form, .register-form{
+    margin: auto;
+    text-align: center;
+}
